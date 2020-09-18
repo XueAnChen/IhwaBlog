@@ -1,0 +1,23 @@
+{
+  "name": "templete",
+  "version": "1.1.1",
+  "description": "A VuePress project created by vuepress-creator.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "yarn build && bash scripts/deploy.sh"
+  },
+  "keywords": [],
+  "author": "Xuean Chen",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.2",
+    "vuepress-plugin-auto-sidebar": "^1.5.0"
+  },
+  "dependencies": {
+    "core-js": "^2.6.11",
+    "vuepress-theme-antdocs": "^1.2.0"
+  },
+  "creator": ">=2.0.0"
+}
